@@ -1,0 +1,78 @@
+html{
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    flex-direction: column;
+    display: flex;
+    min-height:  100%;
+}
+
+
+.cabecalho {
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    bottom: 46px;
+    height: auto;
+}
+
+.cabecalho ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 15% 0 15%;
+}
+
+.cabecalho ul li {
+    display: inline-block;
+}
+
+.link {
+    text-decoration: none;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+}
+
+.link:hover {
+    color: #2FC94F;
+}
+
+.corpo{
+   height: 100%;
+   margin-left: 8px ;
+   margin-right: 8px;
+}
+
+.rodape {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    color: gray;
+    text-align: center;
+    bottom: 0;
+    margin-top: auto;
+    /*background-color: beige;*/
+}
+
+.img-rodape {
+    width: 100%;
+}
+
+.rodape ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2% 5% 2% 5%;
+}
+
+.rodape ul li {
+    display: inline-block;
+}
+
+.logoIFMS{
+width: 200px;
+padding: 0 20px 0 20px
+
+}

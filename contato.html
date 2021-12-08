@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Pink Money</title>
+    <link rel="stylesheet" href="contato.css" />
+    <link rel="stylesheet" href="reset.css" />
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        	<nav>
+                <ul>  
+                    <li class="titulorosa P">PINK</li>
+                    <li class="titulorosa M">MONEY</li>
+                </ul>
+        </nav>
+        <ul class="Menu">
+            <li ><a class="linkMenu" href="Home.html">Home</a></li>
+            <li ><a class="linkMenu" href="objetivos.html">Objetivos</a></li>
+            <li ><a class="linkMenu" href="contato.html">Contato</a></li>
+            <li ><a class="linkMenu" href="sobre.html">Sobre</a></li>
+        </ul>
+    </header>
+    <main>
+    
+        <form class="formulario" action="arquivoQueRecebeOsDados.x" method="POST">
+    
+            <br/>
+    
+            <label for="nomesobrenome"> Nome e sobrenome </label>
+            <input class="padrao" type="text" id="nomesobrenome" maxlength="30" required placeholder="Nome Sobrenome"/>
+            
+            <br/>
+    
+            <label for="email"> Email</label>
+            <input class="padrao" type="email" id="email" maxlength="50" required placeholder="seuemail@dominio.com"/>
+            
+            <br/>
+    
+            <label for="telefone"> Telefone</label>
+            <input class="padrao" type="tel" id="telefone" maxlength="13" required placeholder="(XX) XXXXX-XXXX"/>
+    
+            <br/>
+    
+            <label for="mensagem"> Mensagem </label>
+            <textarea class="padrao" cols="70" rows="10" id="mensagem">  </textarea>
+    
+            <input class="enviar" type="submit" value="Enviar formulario" class="enviar">
+    
+        </form>
+    
+        <footer class="rodape"> 
+            &copy; Todos os Direitos Reservados
+        </footer>
+    
+    </main>
+    </html>

@@ -1,0 +1,242 @@
+.cabecalho{
+    box-shadow: 10px 50px 50px rgb(0 0 0 / 15%);
+    margin: auto;
+    padding: auto;
+    background-color:#292C2F;
+    font-weight: bold;
+    font-size: 30px;   
+    height: 80px;
+    
+}
+.titulorosa{
+    position: relative;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    display: inline;
+    margin-top: 100px;
+    
+}
+.P{
+    margin-left: 40px;
+    color: hotpink;  
+     
+}
+.M{
+    color: white;
+}
+
+.Menu{
+    list-style:none;
+    float:right;
+    
+}
+.Menu li{
+    position:relative;
+    margin-top: 15px;
+    float:left  ;
+    text-decoration: none;
+}
+.Menu {
+    margin-right: 6%;
+    display: flex;
+    cursor: pointer;
+}
+
+
+nav {
+    display: flex;
+}
+
+.linkMenu{
+    text-decoration:none;
+    margin: 20px;
+}
+
+.linkMenu li:hover{
+    color: rgb(255, 255, 255);
+}
+
+a{
+    color: rgb(255, 255, 255);
+
+}
+ 
+a:hover{
+    color:hotpink;
+    height: 3px;
+    background-color: #444;
+    transition: all ease-in-out 250ms;
+    top: 0;
+    content: '';
+}
+.linkMenu {
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+}
+
+.linkMenu:hover {
+    border-top-color: hotpink;
+}
+
+body{
+    font-family: arial, helvetica, sans-serif;
+    background-color: #FCE5ED;
+}
+
+.h1{
+    font-weight: bold;
+    font-size: 35px;    
+    margin-top: 40px;
+}
+
+.h2{
+    font-weight: bold;
+    font-size: 28px;    
+    margin-top: 120px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.textoh {
+    text-align: left;
+    font-size: 22px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+  
+}
+
+.imagem {
+    float: left;
+    margin: 0;
+   padding: 10px;
+}
+.texto {
+    margin: 0;
+    padding: 25px;
+  
+}
+.textopm{
+    font-size: 22px;
+    padding: 15px; 
+}
+
+.rodape {
+    font-family: arial, helvetica, sans-serif;
+    background-color: #292C2F;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom:0;
+    width: 100%;
+    height: 25px;
+    left: 0;
+}
+
+
+@media (max-width: 768px) {
+    .cabecalho{
+        box-shadow: 5px 25px 25px rgb(0 0 0 / 15%);
+        margin: auto;
+        padding: auto;
+        background-color:#292C2F; 
+        font-size: 15px;   
+        height: 65px;
+    }
+
+    .titulorosa{
+        position: relative;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 22px;
+        display: inline;
+        margin-top: 100px;
+        
+    }
+    .P{
+        margin-left: 20px;
+        color: hotpink;  
+         
+    }
+    .M{
+        color: white;
+    }
+    
+    .Menu{
+        list-style:none;
+        float:right;
+        
+    }
+    .Menu li{
+        position:relative;
+        margin-top: 15px;
+        float:left  ;
+        text-decoration: none;
+    }
+    .Menu {
+        margin-right: 3%;
+        display: flex;
+        cursor: pointer;
+    }
+
+    .h1{
+        font-weight: bold;
+        font-size: 25px;    
+        margin-top: 300px;
+        margin-left: 20px;
+    }
+
+    .h2{
+        font-weight: bold;
+        font-size: 28px;    
+        margin-top: 120px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .imagem {
+        float: left;
+        margin: 0;
+        padding: 10px;
+        size: 100px;
+    }
+
+    .imagem2{
+        width:436px; 
+        height: auto;
+
+    }
+
+    .texto {
+       padding: 5px;
+    
+      
+    }
+    .textopm{
+        font-size: 20px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    .textoh {
+        font-size: 20px;
+        text-align: left;
+        
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    
+    .rodape {
+        font-family: arial, helvetica, sans-serif;
+        background-color: #292C2F;
+        color: white;
+        text-align: center;
+        position: relative;
+        bottom:0;
+        width: 100%;
+        height: 35px;
+        left: 0;
+    }
+}

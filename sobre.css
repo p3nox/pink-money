@@ -1,0 +1,269 @@
+.cabecalho{
+    box-shadow: 10px 50px 50px rgb(0 0 0 / 15%);
+    margin: auto;
+    padding: auto;
+    background-color:#292C2F;
+    font-weight: bold;
+    font-size: 30px;   
+    height: 80px;
+    
+}
+.titulorosa{
+    position: relative;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    display: inline;
+    margin-top: 100px;
+    
+}
+.P{
+    margin-left: 40px;
+    color: hotpink;  
+     
+}
+.M{
+    color: white;
+}
+
+.Menu{
+    list-style:none;
+    float:right;
+    
+}
+.Menu li{
+    position:relative;
+    margin-top: 15px;
+    float:left  ;
+    text-decoration: none;
+}
+.Menu {
+    margin-right: 6%;
+    display: flex;
+    cursor: pointer;
+}
+
+
+nav {
+    display: flex;
+}
+
+.Menu {
+    margin-right: 6%;
+    display: flex;
+    cursor: pointer;
+}
+
+.linkMenu{
+    text-decoration:none;
+    margin: 20px;
+}
+
+.linkMenu li:hover{
+    color: rgb(255, 255, 255);
+}
+
+a{
+    color: rgb(255, 255, 255);
+
+}
+ 
+a:hover{
+    color:hotpink;
+    height: 3px;
+    background-color: #444;
+    transition: all ease-in-out 250ms;
+    top: 0;
+    content: '';
+}
+.linkMenu {
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+}
+
+.linkMenu:hover {
+    border-top-color: hotpink;
+}
+
+body{
+    font-family: arial, helvetica, sans-serif;
+    background-color: #FCE5ED;
+}
+
+.nome-legal {
+    margin: auto;
+    max-width: 700px;
+    width: 700px;
+    text-align: center;
+}
+
+#saas {
+    display:flex;
+    align-items: center;
+    padding-left: 150px;
+    height: 300px;
+    width: 1000px;
+    top: 35%;
+    left: 36%;
+    margin-left: -335px;
+    margin-top: -100px;
+}
+
+#lista-show {
+    list-style: none;
+    justify-content: center;
+    display: flex;
+}
+
+#lista-show li {
+    margin-left: 60px;
+    display: inline-block;
+}
+
+.foto {
+    display: block;
+    padding-top: 270px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: auto;
+}
+
+#foto-professor{
+    display: block;
+
+    padding-top: 260px;
+    position: relative;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 200px;
+    width: auto;
+
+    right: -15px;
+    top: -150px;
+}
+
+#nome-prof{
+    position: relative;
+    top:  250px;
+    left: 675px;
+    font-size: 20px;
+}
+#curriculo{
+    position: relative;
+    top:  250px;
+    left: 675px;
+    font-size: 20px;
+    color: black;
+}
+
+.rodape {
+    font-family: arial, helvetica, sans-serif;
+    background-color: #292C2F;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    height: 35px;
+    left: 0;
+}
+
+@media (max-width: 768px) {
+
+    .cabecalho{
+        box-shadow: 5px 25px 25px rgb(0 0 0 / 15%);
+        margin: auto;
+        padding: auto;
+        background-color:#292C2F; 
+        font-size: 15px;   
+        height: 65px;
+        }
+    
+    .titulorosa{
+        position: relative;
+         margin-top: 20px;
+        font-weight: bold;
+        font-size: 22px;
+        display: inline;
+        margin-top: 100px;
+            
+        }
+    .P{
+        margin-left: 20px;
+        color: hotpink;  
+             
+        }
+
+    .M{
+        color: white;
+        }
+        
+    .Menu{
+        list-style:none;
+        float:right;
+            
+        }
+    .Menu li{
+        position:relative;
+        margin-top: 15px;
+        float:left  ;
+        text-decoration: none;
+        }
+
+    .Menu {
+        margin-right: 3%;
+        display: flex;
+        cursor: pointer;
+        }
+
+    .foto {
+        display: inline;
+        padding-top: 270px;
+        
+        margin-left: auto;
+        margin-right: auto;
+        height: 250px;
+        width: auto;
+    }
+    
+    #foto-professor{
+        display: inline;
+    
+        padding-top: 300px;
+        position: relative;
+    
+        margin-left: auto;
+        margin-right: auto;
+    
+        height: 250px;
+        width: auto;
+    
+        right: -15px;
+        top: -150px;
+    }
+
+    .itens {
+        float: right;
+         font-size: 30px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+    .rodape {
+        font-family: arial, helvetica, sans-serif;
+        background-color: #292C2F;
+        color: white;
+        text-align: center;
+        position: relative;
+        bottom:0;
+        width: 100%;
+        height: 25px;
+        left: 0;
+    }
+}
